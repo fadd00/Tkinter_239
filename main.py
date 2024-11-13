@@ -23,12 +23,12 @@ judul_label = tk.Label(root, text="Aplikasi Prediksi Prodi Pilihan", font=("Aria
 judul_label.pack(pady=20)
 
 # Frame untuk input nilai mata pelajaran
-frame_input = tk.Frame(root, bg="#f0f0f0")
+frame_input = tk.Frame(root, bg="#000")
 frame_input.pack(pady=10)
 
 entries = []
 for i in range(10):
-    label = tk.Label(frame_input, text=f"Nilai Mata Pelajaran {i + 1}:", font=("Arial", 12), bg="#f0f0f0")
+    label = tk.Label(frame_input, text=f"Nilai Mata Pelajaran {i + 1}:", font=("fira-code", 12), bg="#000")
     label.grid(row=i, column=0, padx=10, pady=5, sticky="e")
     entry = tk.Entry(frame_input, width=10, font=("Arial", 12))
     entry.grid(row=i, column=1, padx=10, pady=5)
