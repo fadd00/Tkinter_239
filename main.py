@@ -16,7 +16,7 @@ def hasil_prediksi():
 root = tk.Tk()
 root.title("Aplikasi Prediksi Prodi Pilihan")
 root.geometry("500x600")
-root.configure(bg="#f0f0f0")
+root.configure(bg="#000")
 
 # Label Judul
 judul_label = tk.Label(root, text="Aplikasi Prediksi Prodi Pilihan", font=("Arial", 18, "bold"), bg="#f0f0f0")
